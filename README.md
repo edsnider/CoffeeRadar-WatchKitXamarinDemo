@@ -21,3 +21,8 @@ The app demonstrates the following WatchKit app dev concepts:
 ![](https://raw.githubusercontent.com/edsnider/CoffeeRadar-WatchKitXamarinDemo/master/Screenshots/coffeeradar_mainscreen.png)
 ![](https://raw.githubusercontent.com/edsnider/CoffeeRadar-WatchKitXamarinDemo/master/Screenshots/coffeeradar_contextmenu.png)
 
+###Running the code
+If you want to download or fork this code you'll need to get a Foursquare API Client ID and Client Secret and drop them into the `CoffeeRadar.Core.Services.FoursquareService` class.  You can get what you need here: [https://developer.foursquare.com/start](https://developer.foursquare.com/start). ####Apple Watch Simulator
+In order to run the WatchKit app in the iOS simulator you must set the WatchKit extension project as the start up project and use an iPhone 5 or greater simulator.  To see the Apple Watch simulator, select it from the **Hardware > Extneral Displays** iOS Simulator menu.####Debugging Notifications
+In order to test the notification controller functionality in the iOS simulator you need to run with custom parameters and supply the sample JSON payload.  In order to do this, simply select **Run > Run With > Custom Parameters** and then to to the WatchKit tab and select "Notification" in the Watch Interface dropdown and select your the sample JSON payload (there is one provided in the WatchKit extension project of this demo app).========
+Apple Watch frame via [http://infinitapps.com/bezel/](http://infinitapps.com/bezel/)
